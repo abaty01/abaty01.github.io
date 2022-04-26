@@ -1,0 +1,107 @@
+#header{
+    height:100px;
+    background-color: rgb(124, 193, 216);
+    color:white;
+    padding-top:40px;
+}
+#header h1 {
+    display:inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#content{
+    padding:40px;
+}
+#gallery-area {
+    padding:100px;
+}
+#nav {
+    background-color: rgb(178, 219, 233);
+    margin:0 auto;
+    max-width: 960px;
+}
+#nav a {
+    color:black;
+    background-color: rgb(178, 219, 233);
+    text-align:center;
+    display:block;
+    text-decoration: none;
+    font-size: 15pt;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+#navrow a:hover {
+    background-color: lightgray;
+    color: black;
+}
+.dropdown {
+    display:none;
+}
+#anabelimg {
+    width:300px;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+#bio {
+    margin:20px;
+    font-size:12pt;
+    text-align: center;
+}
+#coverletter {
+    text-indent: 2em;
+}
+#footer {
+    flex-shrink:0;
+    width:100%;
+    background-color: rgb(124, 193, 216);
+    position:fixed;
+    bottom:0;
+    left:0;
+    display:inline-block;
+    padding:10px;
+}
+#footer img{
+    height:35px;
+    width:auto;
+}
+div.gallery {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom:20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  display:inline-block;
+}
+div.gallery video {
+    width: 100%;
+    height: auto;
+    display:inline-block;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+@media only screen and (max-width:767px) {
+    #navrow {display:none}
+    .smallnav {display:block}
+    #dropdownMenuButton1 {
+        height:auto;
+        line-height:1;
+        width:150px;
+        display:block;
+        margin:0 auto;
+        background-color:black;
+    }
+}
